@@ -11,8 +11,10 @@ int main()
 
     //array declaration and values input
     int arr[size];
-    cout << "Enter "
-         << " elements: \n";
+    // int arr[1000000];
+    // cout << arr[10000004];
+
+    cout << "Enter " << size << " elements: \n";
     for (int i = 0; i < size; i++)
         cin >> arr[i];
 
