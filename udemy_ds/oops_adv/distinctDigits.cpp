@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     bool hasUnique(string); // function to check whether a string has all distict chars
-    int num, count = 0`;
+    int num, count = 0;
 
     for (num = 1000; num <= 9999; num++)
     {
