@@ -6,6 +6,8 @@ int main()
 {
     bool hasUnique(string);
     string str = "12" + to_string(124);
+    int b = 10;
+    int &a = b;
     cout << hasUnique(str);
     return 0;
 }
